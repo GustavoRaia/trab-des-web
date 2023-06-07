@@ -8,6 +8,7 @@ jogadores.forEach(
     (ele) => {
         const img_jogador = document.createElement('img');
         img_jogador.src = ele.imagem;
+        img_jogador.style.width = "95%";
 
         const nome_jogador = document.createElement('p');
         nome_jogador.innerHTML = ele.nome;

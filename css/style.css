@@ -19,23 +19,18 @@ h1, h2{
     margin: 0 auto;
 }
 
+/* Media Queries */
+
 @media (max-width : 1024px) {
     #lista_imagens_feminino, #lista_imagens_masculino{
         width: fit-content;
-        grid-template-columns : 1fr 1fr 1fr 1fr;        
+        grid-template-columns : 1fr 1fr 1fr 1fr; /* Muda a quantidade de jogadores por fileira para 4 */
     }
 }
 
 @media (max-width : 720px) {
     #lista_imagens_feminino, #lista_imagens_masculino{
-        width: fit-content;
-        grid-template-columns : 1fr 1fr;        
+        grid-template-columns : 1fr 1fr;  /* Muda a quantidade de jogadores por fileira para 2 */   
+        font-size : 8pt; 
     }
-}
-
-@media (max-width : 720px) {
-    #lista_imagens_feminino, #lista_imagens_masculino{
-        font-size : 8pt;        
-    }
-
 }

@@ -8,6 +8,8 @@ body{
 }
 
 #info_jogador {
+    margin: 0 auto;
+    width: 70%;
     display: flex;
 }
 
@@ -21,18 +23,23 @@ body{
     padding-left: 20px;
 }
 
+/* Media Queries */
+
 @media (max-width : 768px) {
-    
     #info_jogador {
         display: grid;
     }
-
     #foto_info {
         font-size: 15pt;
     }
-
     #detalhes_info {
         margin-top: 2rem;
         font-size: 10pt;
+    }
+}
+
+@media (max-width : 360px) {
+    #info_jogador{
+        width: 80%;
     }
 }

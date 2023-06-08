@@ -1,11 +1,6 @@
-// const nome = sessionStorage.getItem('nome');
-// const posicao = sessionStorage.getItem('posicao');
-// const imagem = sessionStorage.getItem('imagem');
-// const descricao = sessionStorage.getItem('descricao');
-// const nome_completo = sessionStorage.getItem('nome_completo');
-// const nascimento = sessionStorage.getItem('nascimento');
-// const altura = sessionStorage.getItem('altura');
 
+/* Pega os valores guardados no Aramezenamento Local e atribui a
+valores que serão utilizados na criação da página */ 
 const nome = localStorage.getItem('nome');
 const posicao = localStorage.getItem('posicao');
 const imagem = localStorage.getItem('imagem');
